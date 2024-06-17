@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: skyblue;
+    max-height: 52px;
+}
+img{
+    max-width: 57px;
+    border-radius: 100%;
+    margin-top: 7px;
+}
+ul{
+    display: inline;
+    list-style-type: none;
+    /* position: relative; */
+}
+li,a{
+    display: inline;
+    padding-left: 12px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    position: relative;
+    /* background-color: chartreuse; */
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    left: 426px;
+    top: 101px;
+    overflow: hidden;
+    color: red;
+}
+hr{
+    margin-top: 114px;
+    width: 300px;
+    margin-left: 581px;
+}
+.pargraph{
+    /* margin-top: 40px; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    /* background-color: chartreuse; */
+    max-width: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    left: 426px;
+    color: red;
+    top: 50px;
+    /* overflow: hidden; */
+}
+.btn{
+    /* margin-top: 30px; */
+    font-size: 15px;
+    position: relative;
+    background-color: chartreuse;
+    color: white;
+    border-radius: 25px;
+    /* max-width: 600px; */
+    text-align: center;
+    box-sizing: border-box;
+    left: 700px;
+    top: 101px;    
+}
