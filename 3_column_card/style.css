@@ -5,89 +5,66 @@ body {
 }
 
 .header-card {
-    background-color: #F2F2F2;
-    height: 695px;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    flex-wrap: wrap;
+    margin: 1.5em;
+    /* justify-content: center; */
+    /* align-items: center; */
 }
-
-.header-card .card-1 {
+main{
+    display: flex;
+    /* margin: 1.5em; */
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 910px;
+    margin: auto;
+}
+.card{
+    padding: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.btn{
+    background-color: inherit;
+    border-radius: 40px;
+    width: 122px;
+    height: 45px;
+    border: solid black;
+    color: white;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.card-1 {
     background-color: #E28525;
-    height: 520px;
-    width: 226px;
-    flex-shrink: 0;
-    align-content: center;
-    padding: 0px 30px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
 }
 
-.header-card .card-2 {
+.card-2 {
     background-color: #016972;
-    height: 520px;
-    width: 226px;
-    flex-shrink: 0;
-    align-content: center;
-    padding: 0px 30px;
 }
 
-.header-card .card-3 {
+.card-3 {
     background-color: #00403F;
-    height: 520px;
-    width: 226px;
-    flex-shrink: 0;
-    align-content: center;
-    padding: 0px 30px;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
 }
-
-.btn1 {
-    border-radius: 40px;
-    color: #E28525;
-    position: relative;
-    top: 47px;
-    left: 40px;
-    width: 122px;
-    height: 45px;
+main img {
+    width: 64px;
+    height: 40px;
 }
-
-.btn2 {
-    border-radius: 40px;
-    color: #016972;
-    position: relative;
-    top: 47px;
-    left: 40px;
-    width: 122px;
-    height: 45px;
-}
-
-.btn3 {
-    border-radius: 40px;
-    color: #00403F;
-    position: relative;
-    top: 47px;
-    left: 40px;
-    width: 122px;
-    height: 45px;
-}
-
-.header-card svg {
-    position: relative;
-    top: -34px;
-}
-
-.header-card h1 {
-    position: relative;
-    top: -27px;
+main h1 {
     font-family: "Big Shoulders Display", sans-serif;
+    text-transform: uppercase;
 }
-
-.header-card p {
-    position: relative;
-    top: -23px;
+main p {
+    line-height: 24px;
     opacity: 0.7;
+    margin-bottom: 30px;
+}
+@media(max-width: 800px){
+    main{
+        flex-direction: column;
+    }
+    .card{
+        width: unset;
+    }
 }
