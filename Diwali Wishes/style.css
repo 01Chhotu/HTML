@@ -3,37 +3,59 @@ body{
     font-family: "Salsa", cursive;
     min-height: 100vh;
 }
-section{
-    /* margin-right: 1.5em; */
-    min-height: 100vh;
+.hero-continer{
     height: 100%;
     background-image: url(image/orange-backdrop\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* display: flex;
-    flex-direction: column; */
 }
-section p{
-    margin: 0;
-    margin-left: 277px;
-    line-height: 23px;
-    margin-bottom: 11px;
+.hero-continer .pargraph-continer{
+    max-width: 504px;
+    margin-left: 10rem;
+    margin-top: -75px;
 }
-section audio{
-    margin-left: 268px;
+.hero-continer p{
+    font-size: 31px;
 }
-section img{
-    max-width: 250px;
+.hero-continer .jalar{
+    width: 250px;
 }
-section .image-continer{
+.audio-contine{
     display: flex;
-    margin-left: 150px;
+    background-color: #FBD8A4;
+    max-width: 100%;
+    border-radius: 45px;
+    justify-content: center;
+    align-items: center;
 }
-section .image-continer img{
-    max-width: 250px;
+.audio-contine .Music-icon{
+    padding-left: 5px;
 }
-@media(max-width: 415px){
-    section{
-        max-width: 100%;
+.hero-continer .deepak{
+    width: 350px;
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+}
+
+@media(max-width: 720px){
+    .deepak-second, span, .Music-player-icon{
+        display: none;
+    }
+    .hero-continer .deepak-first{
+        display: block;
+        margin-left: auto;
+    }
+    .hero-continer .pargraph-continer{
+        max-width: 400px;
+        margin-left: 1em;
+        margin-top: -27px;
+    }
+    .hero-continer .jalar {
+        width: 200px;
+    }
+    .audio-contine {
+        padding-left: 5px;
     }
 }
