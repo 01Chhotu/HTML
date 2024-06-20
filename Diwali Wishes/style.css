@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: "Salsa", cursive;
+    min-height: 100vh;
+}
+section{
+    /* margin-right: 1.5em; */
+    min-height: 100vh;
+    height: 100%;
+    background-image: url(image/orange-backdrop\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column; */
+}
+section p{
+    margin: 0;
+    margin-left: 277px;
+    line-height: 23px;
+    margin-bottom: 11px;
+}
+section audio{
+    margin-left: 268px;
+}
+section img{
+    max-width: 250px;
+}
+section .image-continer{
+    display: flex;
+    margin-left: 150px;
+}
+section .image-continer img{
+    max-width: 250px;
+}
+@media(max-width: 415px){
+    section{
+        max-width: 100%;
+    }
+}
