@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: "Salsa", cursive;
-    min-height: 100vh;
+    background-color: #F99501;
 }
 .hero-continer{
     height: 100%;
@@ -32,11 +32,44 @@ body{
     padding-left: 5px;
 }
 .hero-continer .deepak{
-    width: 350px;
+    max-width: 350px;
 }
 audio::-webkit-media-controls-play-button,
      audio::-webkit-media-controls-panel {
      background-color: #FBD8A4;
+}
+.continer-2 .horizontal-divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 74%;
+    margin-inline: auto;
+    margin-top: 1em;
+}
+.horizontal-line{
+    height: 4px;
+    width: 44%;
+    background-color: #FBD8A4;
+}
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: #FBD8A4;
+    border-radius: 100%;
+}
+.continer-2 .lakshmi-maa{
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    img{
+        max-width: 100%;
+        border-radius: 28px;
+    }
+    p{
+        font-family: "Style Script", cursive;
+        text-align: center;
+        font-size: 4.5vw;
+    }
 }
 
 @media(max-width: 720px){
@@ -46,6 +79,8 @@ audio::-webkit-media-controls-play-button,
     .hero-continer .deepak-first{
         display: block;
         margin-left: auto;
+        width: 100%;
+        max-width: 350px;
     }
     .hero-continer .pargraph-continer{
         max-width: 400px;
@@ -57,5 +92,11 @@ audio::-webkit-media-controls-play-button,
     }
     .audio-contine {
         padding-left: 5px;
+    }
+    .continer-2 .horizontal-divider{
+        width: 58%;
+    }
+    .horizontal-line{
+        width: 70%;
     }
 }
