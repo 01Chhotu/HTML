@@ -18,7 +18,7 @@
     <section class="hero-continer">
         <img class="jalar" src="image/jalar.png" alt="jalar image">
         <div class="pargraph-continer">
-            <p>Hi,<br>
+            <p>Hi, <span id="receiver"></span><br>
                 You mean the world to me...
                 So this Diwali,
                 I made something for you!</p>
@@ -78,8 +78,13 @@
         </div>
         <p class="text-span">Happy diwali and,</p>
         <h2 class="Thank">Thank You For Everything...</h2>
-        <p class="author">Made with 💜 By chhotu paswan</p>
+        <p class="author">Made with 💜 By <span id="sander"></span></p>
     </section>
 </body>
-
+<script>
+    const receiverName = document.getElementById("receiver")
+    const sanderName = document.getElementById("sander")
+    receiverName.innerText = new URLSearchParams(location.search).get("receiver");
+    sanderName.innerText = new URLSearchParams(location.search).get("sander") || "Chhotu kumar";
+</script>
 </html>
