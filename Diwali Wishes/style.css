@@ -101,7 +101,7 @@ audio::-webkit-media-controls-panel {
     .card {
         background-color: #FFFFFF;
         font-size: 30px;
-        max-width: 855px;
+        max-width: 660px;
         padding-left: 2em;
         padding-right: 4em;
         padding-top: 3em;
@@ -114,11 +114,33 @@ audio::-webkit-media-controls-panel {
         margin-left: -117px;
     }
 }
-
-
+.continer-2 .card-2{
+    width: 94%;
+    margin-left: 1em;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.god{
+    width: 48%;
+    padding-top: 29px;
+    padding-bottom: 18px;
+}
+.continer-2 .text-span{
+    margin-inline: 1em;
+}
+.continer-2 .Thank{
+    margin-left: 0.5em;
+}
+.continer-2 .author{
+    text-align: right;
+    margin-right: 10px;
+}
 @media(max-width: 720px) {
 
-    .deepak-second, span, .Music-player-icon {
+    .deepak-second, .Soulful-Music, .Music-player-icon {
         display: none;
     }
 
