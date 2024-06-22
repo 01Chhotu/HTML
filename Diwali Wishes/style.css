@@ -95,6 +95,7 @@ audio::-webkit-media-controls-panel {
     justify-content: center;
     align-items: center;
     box-sizing: content-box;
+    margin-top: 10px;
 }
 
 .continer-2 .img-card {
@@ -132,9 +133,11 @@ audio::-webkit-media-controls-panel {
     margin-inline: 1em;
 }
 .continer-2 .Thank{
+    font-family: "Style Script", cursive;
     margin-left: 0.5em;
 }
 .continer-2 .author{
+    font-weight: bold;
     text-align: right;
     margin-right: 10px;
 }
@@ -177,6 +180,7 @@ audio::-webkit-media-controls-panel {
             max-width: 247px;
             min-height: 114px;
             margin-top: 40px;
+            margin-left: 10px;
         }
         .little-girl{
             margin-top: 2em;
