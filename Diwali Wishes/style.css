@@ -1,26 +1,31 @@
-body{
+body {
     margin: 0;
     font-family: "Salsa", cursive;
     background-color: #F99501;
 }
-.hero-continer{
+
+.hero-continer {
     height: 100%;
     background-image: url(image/orange-backdrop\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.hero-continer .pargraph-continer{
+
+.hero-continer .pargraph-continer {
     max-width: 504px;
     margin-left: 10rem;
     margin-top: -75px;
 }
-.hero-continer p{
+
+.hero-continer p {
     font-size: 31px;
 }
-.hero-continer .jalar{
+
+.hero-continer .jalar {
     width: 250px;
 }
-.audio-contine{
+
+.audio-contine {
     display: flex;
     background-color: #FBD8A4;
     max-width: 100%;
@@ -28,17 +33,21 @@ body{
     justify-content: center;
     align-items: center;
 }
-.audio-contine .Music-icon{
+
+.audio-contine .Music-icon {
     padding-left: 5px;
 }
-.hero-continer .deepak{
+
+.hero-continer .deepak {
     max-width: 350px;
 }
+
 audio::-webkit-media-controls-play-button,
-     audio::-webkit-media-controls-panel {
-     background-color: #FBD8A4;
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
 }
-.continer-2 .horizontal-divider{
+
+.continer-2 .horizontal-divider {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -46,57 +55,110 @@ audio::-webkit-media-controls-play-button,
     margin-inline: auto;
     margin-top: 1em;
 }
-.horizontal-line{
-    height: 4px;
+
+.horizontal-line {
+    height: 2px;
     width: 44%;
     background-color: #FBD8A4;
 }
-.circle{
+
+.circle {
     height: 10px;
     width: 10px;
     background-color: #FBD8A4;
     border-radius: 100%;
+    flex-shrink: 0;
 }
-.continer-2 .lakshmi-maa{
+
+.continer-2 .lakshmi-maa {
     margin-top: 1.5em;
     margin-left: 2em;
     margin-right: 2em;
-    img{
+
+    img {
         max-width: 100%;
         border-radius: 28px;
     }
-    p{
+
+    p {
         font-family: "Style Script", cursive;
         text-align: center;
         font-size: 4.5vw;
+        margin-top: 21px;
+        margin-bottom: -12px;
     }
 }
 
-@media(max-width: 720px){
-    .deepak-second, span, .Music-player-icon{
+.continer-2 .img-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+
+.continer-2 .img-card {
+    .card {
+        background-color: #FFFFFF;
+        font-size: 30px;
+        max-width: 855px;
+        padding-left: 2em;
+        padding-right: 4em;
+        padding-top: 3em;
+        padding-bottom: 5em;
+        border-radius: 15px;
+    }
+    .little-girl{
+        width: 30%;
+        margin-top: 2em;
+        margin-left: -117px;
+    }
+}
+
+
+@media(max-width: 720px) {
+
+    .deepak-second, span, .Music-player-icon {
         display: none;
     }
-    .hero-continer .deepak-first{
+
+    .hero-continer .deepak-first {
         display: block;
         margin-left: auto;
         width: 100%;
         max-width: 350px;
     }
-    .hero-continer .pargraph-continer{
+
+    .hero-continer .pargraph-continer {
         max-width: 400px;
         margin-left: 1em;
         margin-top: -27px;
     }
+
     .hero-continer .jalar {
         width: 200px;
     }
+
     .audio-contine {
         padding-left: 5px;
     }
-    .continer-2 .horizontal-divider{
+
+    .continer-2 .horizontal-divider {
         width: 58%;
     }
-    .horizontal-line{
+    .horizontal-line {
         width: 70%;
+    }
+    .continer-2 .img-card {
+        .card {
+            font-size: 9px;
+            max-width: 247px;
+            min-height: 114px;
+            margin-top: 40px;
+        }
+        .little-girl{
+            margin-top: 2em;
+            margin-left: -60px;
+        }
     }
 }
